@@ -1,8 +1,9 @@
 import 'dart:async';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:collection/collection.dart';
-import 'package:flutter/foundation.dart';
+import 'package:nsd_platform_interface/src/change_notifier.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'package:provider/provider.dart';
 
@@ -138,7 +139,7 @@ typedef ServiceListener = FutureOr<void> Function(
 /// plugin example app shows how to integrate this in a UI.
 ///
 /// [1]: https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple#changenotifierprovider
-class Discovery with ChangeNotifier {
+class Discovery with DartChangeNotifier {
   final String id;
 
   final List<Service> _services = [];
