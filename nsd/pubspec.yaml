@@ -14,36 +14,11 @@ dependencies:
     sdk: flutter
 
   # production
-  #nsd_android: ^2.0.0
-  #nsd_ios: ^2.0.0
-  #nsd_macos: ^2.0.0
-  #nsd_platform_interface: ^2.0.0
-  #nsd_windows: ^3.0.0
-  nsd_android:
-    git:
-      url: https://github.com/chaeMil/nsd.git
-      ref: main
-      path: nsd_android
-  nsd_ios:
-    git:
-      url: https://github.com/chaeMil/nsd.git
-      ref: main
-      path: nsd_ios
-  nsd_macos:
-    git:
-      url: https://github.com/chaeMil/nsd.git
-      ref: main
-      path: nsd_macos
-  nsd_windows:
-    git:
-      url: https://github.com/chaeMil/nsd.git
-      ref: main
-      path: nsd_windows
-  nsd_platform_interface:
-    git:
-      url: https://github.com/chaeMil/nsd.git
-      ref: main
-      path: nsd_platform_interface
+  nsd_android: ^2.0.0
+  nsd_ios: ^2.0.0
+  nsd_macos: ^2.0.0
+  nsd_platform_interface: ^2.0.0
+  nsd_windows: ^3.0.0
 
 #  # development
 #  nsd_android:
